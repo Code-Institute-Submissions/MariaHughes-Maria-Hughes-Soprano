@@ -37,3 +37,18 @@ We continually tweak and adjust this template to help give you the best experien
 --------
 
 Happy coding!
+
+Tutorial Sources:
+- I have used the mini project in Bootstrap 4 substantially as a guide for the framework of my project.
+- I used the Love Running HTML/CSS project with developing my footer.
+
+Library Sources:
+- Bootstrap
+- Font Awesone
+- Figma
+- Google Fonts
+
+Project Explaination:
+- This is a professional singing page for myself. 
+- This page gives prospective employers a look at some of my work experience, It also gives them a little insight to what I look and sound like.
+- This project also gives the opportunity to make contact with me both through the contact form on the project of through the clickable link to the Maria Hughes Soprano Professional facebook page.
