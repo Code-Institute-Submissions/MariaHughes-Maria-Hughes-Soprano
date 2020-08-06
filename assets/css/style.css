@@ -7,13 +7,18 @@
 .navbar {
     margin: 0;
     padding: 1%;
+    background: black;
 }
 
 .navbar-style {
     font-family: 'Cormorant Garamond', serif;
     font-weight: 300;
-    color: #5C0B07;
-    background-color: #F0F0F0;
+    color: #fff;
+    background-color: #000 !important;
+}
+
+.navbar-brand {
+    color: #fff !important;
 }
 
 
@@ -23,20 +28,38 @@
 /* ---------------------------------------------------Title*/
 
 .title-image {
-    background: url("../images/MariaHughesSopranosmallsize.jpg");
+    /*background: url("../images/MariaHughesSopranosmallsize.jpg");*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     max-height: 900px;
     min-height: 800px;
+    position: relative;
+    top: 150px;
+}
+
+.title-image img {
+    width: 70%;
+    height: auto;
+    margin-left: 30%;
+}
+
+.name-title {
+    position: absolute;
+    height: 300px;
+    top: calc(50% - 300px);
+    background: white;
+    border: 10px solid black;
+    padding: 2rem 4rem;
+
 }
 
 .name {
     font-family: 'Cormorant Garamond', serif;
     font-weight: 400;
     font-size: 46px;
-    margin-top: 100px;
-    color: #5C0B07;
+    margin-top: 3rem;
+    color: #000;
     text-align: right;
 }
 
@@ -44,9 +67,9 @@
     font-family: 'Cormorant Garamond', serif;
     font-weight: 600;
     font-size: 28px;
-    margin-top: 30px;
+    margin-top: 1rem;
     margin-bottom: 90px;
-    color: #5C0B07;
+    color: #000;
     text-align: right;
 }
 
@@ -59,12 +82,40 @@
     width: 66%;
 }
 
-.section-heading {
+.about-image-wrapper, .media-image-wrapper {
+    width: 100%;
+    position: relative;
+}
 
+.about-image-wrapper img, .media-image-wrapper img {
+    width: 70%;
+    float: right;
+}
+
+.about-image-wrapper h2, .media-image-wrapper h2 {
+    position: absolute;
+    height: 150px;
+    top:100%;
+    background: white;
+    border: 10px solid black;
+    padding: 2rem 4rem;
+}
+
+.media-image-wrapper h2 {
+    margin-top:100px;
+}
+
+.section-heading {
+    font-family: serif;
+    color: #000;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    padding-left: 200px;
 }
 
 .section-paragraph {
-
+    font-family: serif;
+    color: #000;
 }
 
 .img-align-right {
@@ -77,32 +128,97 @@
 
 
 /* ---------------------------------------------------Media */
+.play-wrapper {
 
+}
 
+.play-btn {
+
+}
+
+.play-song {
+
+}
+
+.heading-align {
+    font-family: serif;
+    color: #5C0B07;
+    text-align: center;
+
+}
+.media-section {
+    margin-top: 12rem;
+}
+.media {
+    margin-bottom: 2rem;
+}
+
+.media-image {
+    width: 50px !important;
+    height: 50px !important;
+}
+
+.media a:hover {
+    width: 60px;
+}
 
 
 
 /* ---------------------------------------------------Gallery */
+.gallery-section {
+    margin-top: 12rem;
+    position: relative;
+}
 
+.gallery-heading {
+    position: absolute;
+    height: 150px;
+    top: -100px;
+    background: white;
+    border: 10px solid black;
+    padding: 2rem 4rem;
+    text-align: center;
+    left: 100px;
+}
+.gallery-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.gallery-row img {
+    width: 350px;
+    height: 350px;
+}
 .bg-color-gallery {
     background-color: #F0F0F0;
+}
+
+.img-fluid {
+    display: inline-block
 }
 
 
 
 /* ---------------------------------------------------Contact */
-
+.contact-section {
+    margin-top: 12rem;
+}
 .contact-heading {
-    font-family: 'Cormorant Garamond', serif;;
-    font-weight: 300;
-    margin-top: 25px;
-    margin-bottom: 20px
+    text-align: center;
+    width: 100%;
 }
 
 .center-form {
     padding-top: 10px;
     margin: 0 auto;
-    max-width: 70%;
+    width: 50%;
+}
+
+.form-control {
+    border: 5px solid black !important;
+    border-radius: 0 !important;
+    height: 60px;
+    margin-bottom: 1rem;
 }
 
 button[type="submit"] {
@@ -112,12 +228,22 @@ button[type="submit"] {
     background-color: #F0F0F0;
 }
 
+.btn {
+    background: black !important;
+    color: white !important;
+    letter-spacing: 2px !important;
+    font-weight: 800;
+    border-radius: 0 !important;
+}
+
 
 
 /* ---------------------------------------------------Footer */
 
 footer {
     height: 150px;
+    background: black;
+    margin-top: 5rem;
 }
 
 .social-media {
