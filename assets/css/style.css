@@ -1,12 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=EB+Garamond&display=swap: 100,200,300,400,500,600,700|Serif: 100,200,300,400,500,600,700');
-
-
-/* ---------------------------------------------------Colors */
-
-
-
-
-
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=EB+Garamond&display=swap: 100,200,300,400,500,600,700|Serif: 100,200,300,400,500,600,700|Cormorant+Garamond:ital,wght@0,400;1,600&family=EB+Garamond&display=swap');
 
 
 
@@ -15,10 +7,13 @@
 .navbar {
     margin: 0;
     padding: 1%;
+}
+
+.navbar-style {
     font-family: 'Cormorant Garamond', serif;
     font-weight: 300;
-    color: #095E25;
-    background-color: #EAF9EF;
+    color: #5C0B07;
+    background-color: #F0F0F0;
 }
 
 
@@ -38,26 +33,47 @@
 
 .name {
     font-family: 'Cormorant Garamond', serif;
-    font-weight: 100;
+    font-weight: 400;
     font-size: 46px;
-    margin-top: 50px;
-    color: #095E25;
+    margin-top: 100px;
+    color: #5C0B07;
+    text-align: right;
 }
 
 .title {
     font-family: 'Cormorant Garamond', serif;
-    font-weight: 200;
+    font-weight: 600;
     font-size: 28px;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 90px;
-    color: #095E25;
+    color: #5C0B07;
+    text-align: right;
 }
 
 
 /* ---------------------------------------------------About */
 
+.about-info {
+    display: inline-block;
+    float: left;
+    width: 66%;
+}
 
+.section-heading {
 
+}
+
+.section-paragraph {
+
+}
+
+.img-align-right {
+    display: inline-block;
+    float: right;
+    width: 33%;
+    height: 300px;
+    box-sizing: border-box;
+}
 
 
 /* ---------------------------------------------------Media */
@@ -69,7 +85,7 @@
 /* ---------------------------------------------------Gallery */
 
 .bg-color-gallery {
-    background-color: #EAF9EF;
+    background-color: #F0F0F0;
 }
 
 
@@ -92,8 +108,8 @@
 button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
-    color: #095E25;
-    background-color: #EAF9EF;
+    color: #5C0B07;
+    background-color: #F0F0F0;
 }
 
 
@@ -116,5 +132,5 @@ footer {
     font-size: 200%;
     margin: 1%;
     padding: 5%;
-    color: #095E25;
+    color: #5C0B07;
 }
