@@ -84,7 +84,7 @@
 .about-image-wrapper, .media-image-wrapper {
     width: 100%;
     position: relative;
-    font-family: 'EB Garamond', serif;;
+    font-family: 'EB Garamond', serif;
 }
 
 .about-image-wrapper img, .media-image-wrapper img {
@@ -99,12 +99,12 @@
     background: #fff;
     border: 10px solid #000;
     padding: 2rem 4rem;
-    font-family: 'EB Garamond', serif;;
+    font-family: 'EB Garamond', serif;
 }
 
 .media-image-wrapper h2 {
     margin-top:100px;
-    font-family: 'EB Garamond', serif;;
+    font-family: 'EB Garamond', serif;
 }
 
 .section-paragraph {
@@ -149,7 +149,7 @@
     border: 10px solid #000;
     padding: 2rem 4rem;
     text-align: center;
-    left: 100px;
+    left: 150px;
     font-family: 'EB Garamond', serif;
 }
 .gallery-row {
@@ -212,10 +212,81 @@ footer {
     height: 150px;
     background: black;
     margin-top: 5rem;
+    width: 100% !important;
 }
 
 .footer-header {
     margin: 0 auto;
     color: #fff;
+}
+
+
+/* ---------------------------------------------------Media Screens */
+
+
+@media screen and (max-width: 1035px) {
+
+    #name-title {
+        position: absolute;
+        height: 30px;
+        top: 66px;
+        background: #fff;
+        border: 5px solid #000;
+        padding: 2rem 4rem;
+    }
+
+    
+    #name {
+        font-family: 'EB Garamond', serif;
+        font-weight: 400;
+        font-size: 18px;
+        margin-top: -2rem;
+        color: #000;
+        text-align: right;
+    }
+
+    #title {
+        font-family: 'EB Garamond', serif;
+        font-weight: 600;
+        font-size: 10px;
+        margin-top: 1rem;
+        margin-bottom: 90px;
+        color: #000;
+        text-align: right;
+    }
+
+
+
+
+    #about-image-wrapper img, #media-image-wrapper img{
+        display: none;
+    }
+
+    #about-image-wrapper h2, #media-image-wrapper h2 {
+        position: absolute;
+        height: 30px;
+        top: 66px;
+        background: #fff;
+        border: 5px solid #000;
+        padding: 1rem 2rem;
+        font-family: 'EB Garamond', serif;
+        text-align: center;
+    }
+
+
+
+    
+    #gallery-heading {
+        position: absolute;
+        height: 75px;
+        top: -50px;
+        background: #fff;
+        border: 5px solid #000;
+        padding: 1rem 2rem;
+        text-align: center;
+        left: 60px;
+        font-family: 'EB Garamond', serif;
+    }
+
 }
 
