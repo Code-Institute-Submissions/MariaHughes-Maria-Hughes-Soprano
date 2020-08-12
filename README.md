@@ -23,8 +23,8 @@ Features
 
 - Nav Bar : This is located at the top of the page at all times. I achieved this by using the bootstrap class of "fixed-top". In the navbar on the left is a h4 with a name and title. On the right I have put the four section headings with clickable anchor href links to each section.
 - Title Section : This section has a title headshot with a name and title again.
-- About Section : In this section is a short biography and a performance picture of Maria Hughes Soprano.
-- Media Section: In this section again there is a promo picture of Maria Hughes along with clickable links to youtube media videos containing sound clips of Maria singing.
+- About Section : In this section is a short biography and a performance picture of Maria Hughes Soprano with the title "About".
+- Media Section: In this section again there is a promo picture of Maria Hughes with the title "Media" along with clickable links to youtube videos containing sound clips of Maria singing and a promotion clip of a performance of Carmen performed by Opera Theatre Company.
 - Gallery Section : This section contains some performamce pictures and headshots from various productions Maria has done through the years.
 - Footer : This section is used more so for the asthetic of the project. I feel that thick black line really finishes off the overall look of the whole site.
 
@@ -59,39 +59,73 @@ Languages Used:
 
 Tutorial Sources:
 - I have used the mini project in Bootstrap 4 substantially as a guide for the framework of my project.
-
+- I also referred back to the mini project "Love Running" for guidance.
 - w3docs
 - flexbox
+- https://www.youtube.com/watch?v=zDpCejbl1sU&t=1537s
 - w3schools
     - I used these sources alot to guide me and give me inspiration for problem solving along the way.
 
 Bootstrap:
-- I used Bootstrap to create the layout for my grid system, my media cards and contact form. I did over write some of this though to help me create the vision I desired.
+- I used Bootstrap to create the layout for my grid system, my gallery, my media cards and contact form. I did over write some of this though to help me create the vision I desired.
 - I discovered the "!important" tag also during this project and found it was an invaluable asset when overwriting bootstrap code.
 - I also really got to grips with how usedful the "container" target is when doing a project like mine as it always aids me in keeping my sections tidy.
 
 
 
-
 Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+- Throughout this entire project my go to for checking errors in my code was W3C Markup Validation Service: https://validator.w3.org/ . I am able to copy my HTML code into this to flag an errors I might have along the way. This includes a final check before finalising a project.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+- Uponing opening my website you first see a title page with a picture and title of Maria Hughes Soprano. Across the top of the screen is a navigational bar again with the title Maria Hughes Soprano on the left had side and four clickable buttons on the right hand side that include;  "About" - This gets you to the section of the page that includes the bio of Maria, "Media" - This gets you to the section that includes clickable links to Youtube sound recordings of Maria, "Gallery" - This brings you to a section that includes 6 images including pictures of past performances, headshots and promotional shots, "Contact"- This brings you to contact form should you wish to make contact.
 
-Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+- There are two ways in which you can reach the "about", "media", "gallery" and "contact" sections of this page:
+1.) Scroll down the page until you reach the section that houses the section you require.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+Alternatively:
+2.) -For the "about" section. - Click on the "About" button on the nav bar and it will bring you directly to the about section.
+    
+    -For the "media" section. - Click on the "Media" button on the nav bar and it will bring you to the media section. 
+        -Here in the media section you have two audio options to listen to.
+            1. The first and top option is a link to Opera Theatre Company promotional trailor for Carmen - The Gypsy Song.
+            2. The second and bottom option is a link to a performance of the aria The Trees on the Mountain from Carlisle Floyd's Susannah sung by Maria Hughes.
+        In order to listen to these recordings you must first click on the circular play icons and you will automatically be brought to the youtube clip which again will play automatically.
+    
+    - For the "gallery" section. - Click on the "Gallery" button and you will be brought directly to the gallery section where you can view the images.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+    - For the "contact" section. - Click on the "Contact" button which brings you down to the final section of the page. 
+        - Here you will be presented with a form that has three fields to be filled in. 
+            1. First field asks for your name.
+            2. The second field asks for your email address.
+            3. The third field is where you are asked to write a message. This allows you to make any inquiries or ask questions of Maria.
+            4. Finally once all of the fields are filled in you can click on the "Get in Touch" button and your request will be sent to Maria.
+                (One word of warning here. If all the fields are not filled in you will not be able to submit the contact request. If a field remains empty an orange exclamation mark will appear in that field followed by "Please fill out this field". Ensure you fill out all fields before trying to submit.)
+
+
+Media Screens 
+
+Medium media Screen: On a medium media screen for example an Ipad:
+    - The nav bar remains the the same just a bit more compact.
+    - The title section also remains the same again just more comapct.
+    - The about section loses the image and instead the page is devided in two, the left side has the "about" heading and the right side has paragraphs with the bio information.
+    - The media section also loses the image and is also devided in two. This time the left side holds the links to the audio clips and the right side had the "Media" title.
+    - The gallery section alters in that instead of their being two lines of 3 photos there are now two lines of two photos and two lines with one photo stacked underneath each other.
+    - The contact form remains in the same place but just becomes more compact.
+    - The footer also remains in the same place.
+
+Small media Screen: On a small media screen for example an iphone X:
+    - The nav bar changes so that Maria Hughes Soprano is on the top line and then the 4 button options go to a second line directly underneath.
+    - The title section again remains the same just even more comapct.
+    - The about section remain the same as the medium screen just more compact.
+    - The media section also remains the same as the medium screen but more comapct again.
+    - The gallery section alters so that all pictures are stacked directly underneather each other in single file with the "Gallery" heading at th top.
+    - The contact form remains the same but again just becomes more compact.
+    - The footer also remains in the same place.
+
 
 Deployment
+
+
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
 In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
