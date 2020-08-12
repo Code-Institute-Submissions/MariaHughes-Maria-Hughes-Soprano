@@ -84,15 +84,12 @@ Testing
 
 Alternatively:
 2.) -For the "about" section. - Click on the "About" button on the nav bar and it will bring you directly to the about section.
-    
     -For the "media" section. - Click on the "Media" button on the nav bar and it will bring you to the media section. 
         -Here in the media section you have two audio options to listen to.
             1. The first and top option is a link to Opera Theatre Company promotional trailor for Carmen - The Gypsy Song.
             2. The second and bottom option is a link to a performance of the aria The Trees on the Mountain from Carlisle Floyd's Susannah sung by Maria Hughes.
         In order to listen to these recordings you must first click on the circular play icons and you will automatically be brought to the youtube clip which again will play automatically.
-    
     - For the "gallery" section. - Click on the "Gallery" button and you will be brought directly to the gallery section where you can view the images.
-
     - For the "contact" section. - Click on the "Contact" button which brings you down to the final section of the page. 
         - Here you will be presented with a form that has three fields to be filled in. 
             1. First field asks for your name.
@@ -125,18 +122,14 @@ Small media Screen: On a small media screen for example an iphone X:
 
 Deployment
 
-
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
+- As my Github and Gitpod are linked I was able to create a repository for my project in Github and open it in the Gitpod workspace. 
+- Whilst working through my project I frequently saved my work to the Gitpod workspace so it was being saved there (by clicking on Ctrl and S or going to file and clicking on save) and I could open that workspace and my work was saved. This process was necessary in order to be able to run your code in the browser and see your running page. 
+- I also was able to save my work to Github by going through a series of steps. 
+    1. In the terminal workspace I typed "git add" and then clicked return. 
+    2. I then typed "git commit -m "commit message" " and again clicked return.
+    3. The final step to save your work to Github is to type "git push" and finally click return. Your work is then saved to Github hosting platform.
 
 
-Credits
 
 Content:
 - The text for the "About" section was developed by me over the years and as an artist that regualarly has to be provided for a variety of projects and reasons.
