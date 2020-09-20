@@ -31,9 +31,6 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    max-height: 900px;
-    min-height: 800px;
-    position: relative;
     top: 150px; 
 }
 
@@ -46,7 +43,7 @@
 .name-title {
     position: absolute;
     height: 300px;
-    top: calc(50% - 300px);
+    top: calc(50% - 200px);
     background: #fff;
     border: 10px solid #000;
     padding: 2rem 4rem;
@@ -74,6 +71,10 @@
 
 
 /* ---------------------------------------------------About */
+
+.container {
+    margin-top: 100px;
+}
 
 .about-info {
     display: inline-block;
@@ -205,7 +206,6 @@
     margin-top: 10rem;
     position: relative;
 }
-
 
 
 /* ---------------------------------------------------Contact */
