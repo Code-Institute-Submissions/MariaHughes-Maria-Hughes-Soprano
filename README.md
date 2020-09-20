@@ -1,21 +1,37 @@
 Maria Hughes - Soprano
+ - Link to my page: https://mariahughes.github.io/Maria-Hughes-Soprano/.
 
-- This is a professional singing page for myself. This is an overview of what the "Maria Hughes Soprano" brand has to offer in a snapshot. 
-- This therefore really inspired my brochure type approach to my first milestone project. 
-- This page gives prospective employers a look at some of my work experience, it also gives them a little insight to what I look and sound like and what I can offer on stage.
-- This project also gives the opportunity to make contact with me through the contact form on the project.
+User Stories:
+- First Time Visitor Goals
+    A.) As an agent, I want to easily see who the website belongs to and learn more about the singer.
+    B.) As a potential employer, I want to be able to easily navigate through the site to find out a bit about the performer and their experience.
+    C.) As an opera house casting agent, I want to have access to recordings and images of the performer both on and off stage.
+- Returning Visitor Goals
+    A.) As a potential employer, I want to be able to make easy contact with the performer.
+    B.) As a potential employer, I want to have quick access to the performers Bio so as it can be added at a moments notice to brochures or programmes or media.
+    C.) As a potential employer, I want to have knowledge of past and future training.
+- Frequent User Goals
+    A.) As a potential employer, I want to know that you are updating your website with current pictures of recent productions and performaces that you would have worked in.
+    B.) As a potential employer, I want to hear new recordings and videos of recent work and performances.
+    C.) As a potential employer, I want to see engagment with the performer with the addition of social media accounts and reviews of past performances.
+
+Design:
+
+Colour Scheme - The two main colours used are black and white. I chose the black and white colours to allow the colours of the images I was going to use to really pop.
+
+Typography - With this project visually I wanted to keep things as simple as possible. I knew that the images I had planned to use in the project were very busy so I wanted to keep the rest as unfussy as possible. So I chose the Garamond font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Garamond is a clean and classy font used to add a layer of sophistication to the site whilst also offering clear and easily read text.
+
+Imagery - The images used on this site were the building blocks for what I wanted to achieve visually. I wanted to incorporate as many images as I could to give potential employers a view of the performers range of characters and experience at a moments glance. I wanted this project to be a snapshot of her brand, so I wanted the whole site to be somewhat like a brochure.  I like the accessibility of a brochure. Everything you need to know at a moments glance. So with this brochure style idea in mind I put that first title, head shot picture at the top to articulate who she was and what she was about, then followed on with the back and forth across the page that included the about, media and gallery sections. Followed then by a very clear and concise place to make contact right at the bottom of the page. A quick snapshot of what Maria Hughes Soprano can do. The first image you see is a large media shot of the performer. It gives a quick introductary snap of what to expect in the rest of the website. When you scroll down you come to the "About" section. Here you are greeted with a performance picture of the performer and a short bio. These are laid out side by side to give the viewer a concise intro and vision of the performer on the stage. Scroll further and you come to the "Media" section. Here you are given two clickable links to audio files. There is also a promo shot picture alongside. When doing any external links I always made sure to use the "_blank" target so as to open in a new page and not draw the user away from the main focus of my page. Continue scrolling and you come to a gallery section. Here you see six pictures that include performance pictures, promo shots and headshots. They were chosen to show a variety of the performers abilities and looks. The final scroll brings you to a very simple contact form. I really like the use of the thick black boarders I used around my headings and contact file. I feel like it gives a little lift of animation and gives the project quite an edgy feel to it. 
 
 
 
-UX
+Wireframes:
+- Desktop Wireframe - https://www.figma.com/file/VE3eHnwZb2Hsnxjvd1JPeo/Maria-Hughes-Soprano?node-id=1%3A2
 
-- With this project visually I wanted to keep things as simple as possible. I knew that the images I had planned to use in the project were very busy so I wanted to keep the rest as unfussy as possible.
-- I chose the black and white colours to allow the colours of the images to really pop.
-- I really like the use of the thick black boarders I used around my headings and contact file. I feel like it gives a little lift of animation and gives the project quite an edgy feel to it. 
-- As previously stated I wanted this project to be a snapshot of my brand, so I wanted the whole site to be somewhat like a brochure. A quick snapshot of what Maria Hughes Soprano can do.
-- I used Figma as my wireframe template to help in the development of my project. Here is a link to my wireframe:  https://www.figma.com/file/VE3eHnwZb2Hsnxjvd1JPeo/Untitled?node-id=1%3A2
-- I like the accessibility of a brochure. Everything you need to know at a moments glance. So with this brochure style idea in mind I put that first title, head shot picture at the top to articulate who I was and what I was about, then followed on with the back and forth across the page sections of the media and gallery. Followed then by a very clear and concise place to make contact right at the bottom of the page.
-- When doing any external links I always made sure to use the "_blank" target so as to open in a new page and not draw the user away from the main focus of my page.
+- Tablet Wireframe - https://www.figma.com/file/VE3eHnwZb2Hsnxjvd1JPeo/Maria-Hughes-Soprano?node-id=69%3A6
+
+- Mobile Wireframe - https://www.figma.com/file/VE3eHnwZb2Hsnxjvd1JPeo/Maria-Hughes-Soprano?node-id=69%3A39
+
 
 
 
@@ -27,6 +43,7 @@ Features
 - Media Section: In this section again there is a promo picture of Maria Hughes with the title "Media" along with clickable links to youtube videos containing sound clips of Maria singing and a promotion clip of a performance of Carmen performed by Opera Theatre Company.
 - Gallery Section : This section contains some performamce pictures and headshots from various productions Maria has done through the years.
 - Footer : This section is used more so for the asthetic of the project. I feel that thick black line really finishes off the overall look of the whole site.
+- Its responsive on all device sizes.
 
 
 
@@ -49,13 +66,16 @@ Future Features
 Technologies Used
 
 Languages Used:
-- HTML
+- HTML5
 - CSS
-- Bootstrap 
-- Figma
-- Google fonts
 
-
+Frameworks, Libraries & Programs Used:
+- Bootstrap - Bootstrap was used to assist with the responsiveness and styling of the website.
+- Figma - Figma was used to create the wireframes during the design process. It was also used to create the button for my media play button.
+- Google fonts - Google fonts were used to import the 'Garamond' font into the style.css file which is used on all pages throughout the project.
+- jQuery - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
+- Git - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+- GitHub - GitHub is used to store the projects code after being pushed from Git.
 
 Tutorial Sources:
 - I have used the mini project in Bootstrap 4 substantially as a guide for the framework of my project.
@@ -65,12 +85,7 @@ Tutorial Sources:
 - https://www.youtube.com/watch?v=zDpCejbl1sU&t=1537s
 - w3schools
     - I used these sources alot to guide me and give me inspiration for problem solving along the way.
-
-Bootstrap:
-- I used Bootstrap to create the layout for my grid system, my gallery, my media cards and contact form. I did over write some of this though to help me create the vision I desired.
-- I discovered the "!important" tag also during this project and found it was an invaluable asset when overwriting bootstrap code.
-- I also really got to grips with how usedful the "container" target is when doing a project like mine as it always aids me in keeping my sections tidy.
-
+- Tutor support - Tutor support provided me continuous support and guidance throughout the project.
 
 
 Testing
@@ -129,7 +144,7 @@ Deployment
     2. I then typed "git commit -m "commit message" " and again clicked return.
     3. The final step to save your work to Github is to type "git push" and finally click return. Your work is then saved to Github hosting platform.
 
-
+Credits
 
 Content:
 - The text for the "About" section was developed by me over the years and as an artist that regualarly has to be provided for a variety of projects and reasons.
@@ -138,7 +153,9 @@ Media:
 - The photos used in this site were obtained my personal archieve and from the Royal conservatoire of Scotland Flickr page.
 - I received inspiration for this project from my music career and my desire to continue to keep pushing it forward.
 
+Acknowledgements:
 
+- Tutor support at Code Institute for their support.
 
 
 
